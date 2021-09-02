@@ -5,6 +5,7 @@ public class CoinFlip {
       Random randGen = new Random(); 
       Scanner enter = new Scanner(System.in);
 
+      System.out.println(""); 
       System.out.println("Press ENTER to flip the coin!"); 
       
       String a = enter.nextLine();
