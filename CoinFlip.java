@@ -17,10 +17,10 @@ public class CoinFlip {
          System.out.println("HEADS!");
       }
 
-      else {
+      if (result == 1) {
          System.out.println("TAILS!");
       }
       
       enter.close();
    }
-}
+} 
